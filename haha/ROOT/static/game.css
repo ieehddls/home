@@ -1,0 +1,90 @@
+.game-border
+{
+    border: 1px solid #533c3c;
+    border-top: none;
+    border-bottom: none;
+}
+
+.title
+{
+    text-align: center;
+}
+
+.answer
+{
+    display: flex;
+    background-color: #f0f8ff;
+    border-radius: 16px;
+    padding: 0 20px;
+    font-size: 60px;
+    font-weight: 700;
+    height: 90px;
+}
+
+.answer-item
+{
+    flex: 1 1;
+    text-align: center;
+}
+
+.result-div
+{
+    display: flex!important;
+    height: 200px;
+}
+
+.result-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-gap: 10px;
+    gap: 10px;
+}
+
+.result-item
+{
+    text-align: center;
+}
+
+.flex-fill
+{
+    flex: 1 1 auto!important;
+}
+
+.input-grid{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 4px;
+    gap: 4px;
+}
+
+.btn
+{
+    height: 70px;
+    font-size: 40px;
+    border-radius: 10px;
+    border: none;
+}
+
+.btn-primary
+{
+    color: #fff;
+    background-color: #0091ff;
+    border-color: #0091ff;
+}
+
+#result-div
+{
+    background-color: blue;
+}
+
+#input-div
+{
+
+}
+
+#account-div
+{
+    background-color: orange;
+    margin-left: 50px;
+}

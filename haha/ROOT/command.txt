@@ -1,0 +1,3 @@
+cd WEB-INF/classes/com/bnc/web
+
+javac -cp "C:\Program Files\java1\servlet-api.jar; C:\Program Files\java1\mybatis-3.5.13.jar"; *.java
