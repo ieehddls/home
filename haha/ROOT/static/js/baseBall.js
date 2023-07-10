@@ -92,3 +92,30 @@ function cancel(){
         a.innerText = "";
     }
 }
+
+// if(json["S"] == 3){
+// 	console.log(정답입니다.);
+// 	//gameWin();버튼같은거
+// 	}
+// else {
+// 	result_item[i++].appendChild(createResultElement(json));
+
+//         	if(i == 9) //gameLose();
+//         	else cancel();
+// }
+
+
+// function gameWin(){
+// 	//버튼활성화 같은거? newGame();
+// }
+
+// function newGame(){
+// 	//버튼 invisible?
+// 	//reset();
+// 	//흠
+// }
+
+// function gameLose(){
+// 	//졌다
+// 	//버튼활성화? newGame();
+// }
