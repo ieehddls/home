@@ -3,6 +3,8 @@ CREATE TABLE GAME(
 	g_problem_number_first NUMBER,
 	g_problem_number_second NUMBER,
 	g_problem_number_third NUMBER,
+	g_end char(1),
+	g_round NUMBER,
   g_player_id VARCHAR(10) FOREIGN KEY
 )
 
@@ -11,3 +13,5 @@ CREATE TABLE PLAYER(
 )
 
   https://record-than-remember.tistory.com/entry/oracle-fk-key
+
+https://codedragon.tistory.com/6159
