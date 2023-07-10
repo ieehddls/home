@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="BaseballMapper">
+  <select id="selectAll" resultType="PlayerDTO">
+    SELECT * FROM player
+  </select>
+
+    <!-- <select id="selectOne" parameterType="string" resultType="PlayerDTO">
+      SELECT * FROM PLAYER WHERE p_player_id =#{value}
+    </select> -->
+
+    <!-- <insert id="insertPlayer" parameterType="PlayerDTO">
+      INSERT INTO PLAYER(p_player_id) VALUES (#{g_game_number})
+    </insert> 
+
+</mapper>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="BaseballMapper">
+  <select id="selectAll" resultType="GameDTO">
+    SELECT * FROM game
+  </select>
+  <!-- <select id="selectOne" parameterType="int" resultType="GameDTO">
+    SELECT * FROM game WHERE g_game_number=#{value}
+    </select> -->
+
+  <!-- <insert id="insertGame" parameterType="GameDTO">
+    INSERT INTO GAME(g_game_number, g_problem_number_first,
+    g_problem_number_second, g_problem_number_third, g_end char,
+    g_player_id) VALUES (#{g_game_number}, #{g_problem_number_first},
+    #{g_problem_number_second}, #{g_problem_number_third}, #{g_end char},
+    #{g_player_id})
+    </insert> 
+    
+    <update id="updateGameEnd" parameterType="strint | number">
+      UPDATE game SET g_end = #{value} WHERE g_game_number = #{id}
+    </insert>
+    -->
+</mapper>
