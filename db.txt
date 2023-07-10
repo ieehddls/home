@@ -1,0 +1,13 @@
+CREATE TABLE GAME(
+	g_game_number NUMBER PRIMARY KEY,
+	g_problem_number_first NUMBER,
+	g_problem_number_second NUMBER,
+	g_problem_number_third NUMBER,
+  g_player_id VARCHAR(10) FOREIGN KEY
+)
+
+CREATE TABLE PLAYER(
+  p_player_id VARCHAR(10) PRIMARY KEY
+)
+
+  https://record-than-remember.tistory.com/entry/oracle-fk-key
